@@ -1,5 +1,4 @@
 databaseChangeLog:
-  - changeSet:
-      id: init
-      author: you
-      changes: []
+  - include:
+      file: db/changelog/001-create-wallet.yaml
+
